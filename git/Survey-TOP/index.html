@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuduManies Survey :D</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+ 
+    <div id="main">
+        <div id="background">
+            <div id="title">
+                <h1> 
+                   The Bee Survey
+                </h1>
+                <p>
+                    How much do you know about bees ?
+                </p>
+                <div>
+                    <form id="survey-form" class="boxy" >
+                            
+                        <label for="fname">First name:</label>
+                        <input class="boxy" type="text" id="name" name="fname" required placeholder="Your name here" required min="0" max="20">
+                        
+                        <hr id="line" >
+
+                        <label for="gmail">Gmail:</label>
+                        <input class="boxy" type="text" id="gmail" name=gmail required placeholder="Your gmail here" pattern=".+@gmail.com" size="30" required min="0" max="40" >
+                        
+                        <hr id="line" >
+
+                        <label for="age" >Age:</label>
+                        <br> <input class="boxy" type="number" name="age" id="number" required min="0" max="99" class="form-control" placeholder="Age">
+                        
+                        <hr id="line" >
+
+                        <br> <label class="boxy" >Why do you like bees?</label>
+                        <select id ="dropdown" class="boxy">
+                          <option  disabled="" selected="" value="">Select current option.</option>
+                          <option value = "1">They have sex with flowers.</option>
+                          <option value = "2">They seem like verry chill bugs. </option>
+                          <option value = "3">Bees are part of the earth's wonderful biodiversity!</option>
+                          <option value = "4">Bees save elephants - and may save human lives!</option>
+                        </select>
+
+
+                        <hr id="line" >
+
+                          <p>
+                            If you where to be givin an option of being a beekeeper would you do it?
+                          </p>
+
+                          <label>
+                            <input name="user-recommend" value="forsure" type="radio" class="input-radio" checked="">For Sure!</label>
+                            <label>
+                                <br><input name="user-recommend" value="yes" type="radio" class="input-radio" checked="">Yes!</label>
+                                <label>
+                                   <br> <input name="user-recommend" value="maybe" type="radio" class="input-radio" checked="">Maybe.</label>
+                                    <label>
+                                       <br> <input name="user-recommend" value="notsure" type="radio" class="input-radio" checked="">Not Sure.</label>
+                                        <br> <label>
+                                            <input name="user-recommend" value="nope" type="radio" class="input-radio" checked="">nope</label>
+
+
+                                            <hr>
+                                            <p>
+                                                Do you like this survey?
+                                            </p>
+                                     <select id="dropdown" name="mostLike" class="boxy" required="">
+                                                <option disabled="" selected="" value="">Select an option</option>
+                                                <option value="yes">Yes, it's Amazing!!</option>
+                                                <option value="meh">It's good i guess.</option>
+                                                <option value="notreally">Not really.</option>
+                                                <option value="no">Its trash.</option>
+                                     </select>
+                                     <hr>
+
+                                     <textarea maxlength="250" id="comments" class="input-textarea" name="comment" placeholder="Please enter your feedback here."></textarea>
+                                     <hr>
+                                            <button type="submit" id="submit" class="submit-button boxy">
+                                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Submit </a> 
+                                                </button>
+                    </form>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
